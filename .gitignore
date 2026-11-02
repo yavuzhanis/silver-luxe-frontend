@@ -1,0 +1,25 @@
+# Local operating system and editor files
+.DS_Store
+.AppleDouble
+._*
+.vscode/
+.idea/
+*.swp
+
+# Dependencies and local caches
+node_modules/
+.cache/
+*.log
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+
+# Hosting tool state
+.vercel/
+.netlify/
+.wrangler/
